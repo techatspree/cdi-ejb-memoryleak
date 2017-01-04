@@ -43,5 +43,5 @@ VisualVM showing increasing heap usage over time:
 ![Alt text](memoryleak.png "VisualVM showing increasing minimal heap usage over time")
 
 
-VisualVM showing constant Heap usage over time:
+VisualVM showing constant Heap usage over time when using fixed implementation:
 ![Alt text](memoryleak-fix.png "VisualVM showing constant minimal Heap usage over time")
