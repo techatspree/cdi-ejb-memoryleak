@@ -1,17 +1,20 @@
-cdi-ejb-memoryleak: an example of how to easily trap in to a memory leak with CDI 1.0
+cdi-ejb-memoryleak: an example of how to easily get trapped in to a memory leak with CDI 1.0
 ================================================================
+
+Example project mentioned in the following blog post:
+https://blog.akquinet.de/2017/01/04/dont-get-trapped-into-a-memory-leak-using-cdi-instance-injection
 
 What is it?
 -----------
 
-The `cdi-ejb-memoryleak` example demonstrate how you easily get trapped in to a memory leak while using CDI 1.0 in conjunction with EJBs.
+The `cdi-ejb-memoryleak` example demonstrate how you can easily get trapped in to a memory leak while using CDI 1.0 in conjunction with EJBs.
 
 This is a simple webapplication providing 3 REST endpoints:
 - one leading to a memory leak over time
 - one which shows a workaround and fix to prevent the memory leak under CDI 1.0
 - one which shows a workaround and fix to prevent the memory leak under CDI 1.1 using a new API enhancement introduced in this version
 
-There is a simple REST client as a integrationtest which is calling these endpoints to show the effect.
+There is a simple REST client as an integrationtest which is calling these endpoints to show the effect.
 
 
 Build and Run this example
